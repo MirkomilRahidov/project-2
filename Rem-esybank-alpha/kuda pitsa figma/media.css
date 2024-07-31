@@ -1,0 +1,38 @@
+@media(max-width:1600px) {
+    .food {
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+
+    .ground-img {
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+}
+
+@media(max-width:1200px) {
+    nav .box1 .check {
+        display: none !important;
+    }
+
+    nav .box2 a {
+        display: none !important;
+    }
+
+    .under-nav .enter2 .div {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .mark {
+        display: none;
+    }
+
+    .enter3 {
+        display: none;
+    }
+
+}
